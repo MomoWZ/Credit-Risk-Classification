@@ -7,7 +7,7 @@ The purpose of this credit risk analysis is to identify the creditworthiness of 
 * instantiating a logistic regression model and training with the original training sets (X_train, y_train), fitting it to the training sets, and using it to generate predictions <br>
 
 ### Results
-
+Model 1 has been trained on the original data, gives an accuracy of 95.2% in predicting the 2 labels. The model is very good at predicting the healthy loans, the precision score of this model is 1.00. On the other hand, the prediction of high-risk loan is only 
 
 
 ## Model 2
