@@ -4,7 +4,7 @@
 The purpose of this credit risk analysis is to identify the creditworthiness of borrowers. This analysis use a logistic regression model to identify 2 lables, healthy loans(0) and high-risk loan(1). There are two models have been created. Models are trained using different methods and their performance is compared to determine which model performs better. 
 
 ## Model 1
-* instantiating a logistic regression model and training with the original training sets (X_train, y_train), fitting it to the training sets, and using it to generate predictions <br>
+* instantiating a logistic regression model and training with the original training sets (X_train, y_train), fitting it to the training sets, and generating predictions <br>
 
 ### Results
 Model 1 had been trained on the original data, gives an accuracy of 95.2% in predicting the 2 labels. The model is very good at predicting the healthy loans, the precision score of this model is 1.00. And the recall score is nearly 1.00. On the other hand, the prediction of high-risk loan is only 0.85, which indicates that only 87% of actual high-risk loans were correctly predicted. Compared with healthy loans, the high-risk loan only identified 91% of all high-risk loans in the dataset. Overall, the F1 score is a weighted average of the precision and recall scores. Our model's F1 score is 88%.
